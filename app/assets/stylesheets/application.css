@@ -86,19 +86,34 @@ h1 {
     .container {
         margin-left: 50px;
     }
-    .button {
-    	width:200px;
-    	margin-top: 5px;
-    }
+    .input, .button {
+	
+			width: 340px;
+			margin-bottom: 5px;
+		}
+		
 }
 @media screen and (max-width: 780px) {
     .wrapper {
         margin-left: 10px;
+        width: 100%;
     }
     .container {
+    	width: 95%;
         margin-left: 10px;
     }
     .add-section {
-    	margin-left: 10px;
+    	margin-left: 5px;
     }
+    iframe {
+    	width: 90%;
+    }
+     
+}
+@media screen and (max-width: 680px) {
+    .change-btn-left {
+	margin-right: 100px;
+
+}
+     
 }
