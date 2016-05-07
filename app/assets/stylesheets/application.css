@@ -81,3 +81,24 @@ h1 {
 .video {
 	margin-bottom: 15px;
 }
+
+@media screen and (max-width: 980px) {
+    .container {
+        margin-left: 50px;
+    }
+    .button {
+    	width:200px;
+    	margin-top: 5px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .wrapper {
+        margin-left: 10px;
+    }
+    .container {
+        margin-left: 10px;
+    }
+    .add-section {
+    	margin-left: 10px;
+    }
+}
